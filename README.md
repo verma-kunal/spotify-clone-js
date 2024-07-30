@@ -36,7 +36,7 @@ This project is a music streaming app built using Vanilla JavaScript and the Spo
 
 # Demo Video
 
-https://github.com/user-attachments/assets/3d00c88e-f1ac-4151-b420-c285b05ef138
+https://github.com/user-attachments/assets/9bf35c53-c5b0-4600-ab2b-235b0d8ceac2
 
 ## Resources
 
