@@ -9,7 +9,7 @@ const port = 3000;
 const apiController = (() => {
   const clientId = process.env.CLIENT_ID;
   const clientSecret = process.env.CLIENT_SECRET;
-  let playlistId = "4FGDaJhketSpOxPMjMcb6J";
+  const playlistId = process.env.PLAYLIST_ID;
 
   const _getToken = async () => {
     try {
