@@ -36,6 +36,8 @@ This project is a music streaming app built using Vanilla JavaScript and the Spo
 
 # Demo Video
 
+https://github.com/user-attachments/assets/3d00c88e-f1ac-4151-b420-c285b05ef138
+
 ## Resources
 
 - [How to use Spotify's API with Javascript](https://youtu.be/SbelQW2JaDQ?feature=shared)
