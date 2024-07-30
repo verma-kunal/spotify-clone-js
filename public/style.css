@@ -1,0 +1,165 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(90deg, #d1c4e9, #b39ddb);
+}
+
+nav {
+  height: 75px;
+  border-radius: 50px;
+  margin: 20px 62px;
+}
+
+.logo img {
+  width: 50px;
+  height: 50px;
+  margin: 0px 5px 0px 10px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  font-weight: bolder;
+  font-size: 1.5rem;
+}
+
+nav ul li {
+  display: flex;
+  align-items: center;
+  font-size: 1.3rem;
+}
+
+.container1 {
+  background: url("../assets/bg2.png");
+  background-size: cover; /* Or 'contain' depending on your needs */
+  background-position: top; /* Adjust as necessary: 'top', 'bottom', 'left', 'right', or percentages */
+  background-repeat: no-repeat; /* 'repeat', 'repeat-x', 'repeat-y' if needed */
+  color: white;
+  height: 69vh;
+  width: 91%;
+  margin-top: 25px;
+  margin: auto;
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+.song-list {
+  display: flex;
+  flex-direction: column;
+  margin-top: 25px;
+  margin-left: 10px;
+  width: 39%;
+}
+.card {
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+  /* display: flex; */
+  /* align-items: center; */
+  margin-bottom: 14px;
+  background: rgba(255, 255, 255, 0.7);
+  border-radius: 50px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(7.7px);
+  -webkit-backdrop-filter: blur(7.7px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.card:hover {
+  transition: transform 0.3s;
+  transform: scale(1.05);
+}
+
+.songItem {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.songItem img {
+  padding: 4px;
+  width: 70px;
+  border-radius: 50%;
+}
+
+.songItem span {
+  margin-right: 15px;
+  font-size: 1.2rem;
+}
+
+.timstamp i {
+  font-size: 22px;
+}
+
+footer {
+  height: 130px;
+  background-color: #212529;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#progressBar {
+  width: 80vw;
+  cursor: pointer;
+}
+
+.icons i {
+  color: white;
+  cursor: pointer;
+  display: flex;
+  margin: 15px 28px 0 28px;
+}
+
+.icons i:hover {
+  transition: transform 0.3s;
+  transform: scale(1.1);
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+}
+
+.songInfo {
+  position: absolute;
+  left: 10vw;
+  color: white;
+  margin-top: 38px;
+}
+
+.songInfo img {
+  opacity: 0;
+  margin-right: 15px;
+  transition: opacity 0.4s ease-in;
+}
+
+.songInfo span {
+  display: none;
+  font-weight: bolder;
+  font-size: 16px;
+}
+
+.rotate {
+  animation: rotation 3s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
